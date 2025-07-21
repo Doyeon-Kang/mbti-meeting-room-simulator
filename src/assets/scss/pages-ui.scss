@@ -1,0 +1,22 @@
+.mbti-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.mbti-button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  transition: 0.2s ease;
+
+  &.selected {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+}
